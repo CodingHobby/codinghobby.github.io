@@ -1,0 +1,16 @@
+.text
+	text-align: center
+	
+.btn
+	transition: all 0.5s ease-in
+	background-color: $main-btn
+	padding: 10px 20px
+	border: 1px solid darken($main-btn, 5%)
+	&:hover
+		background-color: darken($main-btn, 5%)
+		cursor: pointer
+
+a.btn
+	color: tint(black, 30%)
+	&:hover
+		color: tint(black, 20%)

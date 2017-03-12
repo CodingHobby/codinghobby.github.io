@@ -1,0 +1,44 @@
+☐ Refractoring
+	☐ Make hamburger HTML based instead of image based
+	☐ Change Bourbon to Jekyll Autoprefixer
+	✔ Change angre to overwhelmed @done (11/03/2017, 12:52:23 pm)
+	✔ Combine hero section into just one include @done (11/03/2017, 12:58:31 pm)
+	☐ Clean up font-awesome mess
+	☐ Find less hacky solution for redirecting user to another page
+
+✔ Add SASS support @done (10/03/2017, 2:09:58 pm)
+	✔ Standard file structure @done (10/03/2017, 2:09:59 pm)
+	✔ Sass folder @done (10/03/2017, 2:10:00 pm)
+	✔ Bourbon, Neat, Refills and Bitter @done (10/03/2017, 2:10:01 pm)
+
+
+
+✔ Navigation @done (11/03/2017, 11:55:39 am)
+	✔ Build top Navigation @done (10/03/2017, 11:03:42 pm)
+	✔ Add responsiveness using media queries @done (10/03/2017, 11:03:43 pm)
+
+☐ Home page
+	✔ Hero box at top @done (10/03/2017, 11:03:45 pm)
+	✔ Multiple boxes @done (10/03/2017, 11:04:08 pm)
+	✔ CTA @done (11/03/2017, 12:47:32 pm)
+	☐ Use page content container instead of position: absolute
+
+☐ About page
+	☐ Thinks about something decent to say
+	☐ Possibly divide into columns w/ icons(?)
+	☐ Awesome neat grid (bitters template)
+
+☐ Articles Page
+	☐ List articles w/ link to single article
+	☐ Group by category
+	☐ Group by author
+
+☐ Singe article View
+	☐ Possibly using Bitters template
+
+☐ Deployment
+	☐ Add to Github Pages
+	☐ Possibly buy dns domain
+
+☐ Other stuff
+	☐ Add footer

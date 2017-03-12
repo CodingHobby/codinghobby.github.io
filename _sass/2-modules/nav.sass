@@ -1,0 +1,50 @@
+.nav-wrap
+	z-index: 1
+	position: fixed
+	background-color: $nav-color
+	width: 100%
+	border-bottom: 1px solid darken($nav-color, 10%)
+	+display('flex')
+	#menu
+		display: none
+	.logo img
+		+size(50px)
+		margin-top: 5px
+		margin-left: 10px
+		border-radius: 50%
+	nav
+		width: 100%
+	ul
+		+display('flex')
+		padding-top: 5px
+		list-style: none
+		li
+			margin-left: 20px
+			padding: 0 10px
+			display: flex
+			a
+				color: tint($text-color, 20%)
+				&:hover
+					color: $text-color
+		&.inactive, &.toggled
+			opacity: 0
+			height: 0px
+	@media(max-width: 480px)
+		ul
+			display: none
+			&.toggled
+				opacity: 1
+				position: absolute
+				height: 100px
+				margin-top: 60px
+				display: block
+				background-color: $nav-color
+				width: 100%
+				li
+					width: 50px
+		#menu
+			display: block
+			img
+				margin-top: 5px
+				margin-left: 10px
+				+size(50px)

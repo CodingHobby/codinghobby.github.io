@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{% include head.html %}
+</head>
+
+<body id="articles">
+		{% include nav.html %}
+		<div class="page-content-wrapper">
+			{% for post in site.posts %}
+			<a href="{{ post.url }}">
+				<div class="box post-thumb">
+					<div class="date">
+						<p>{{ post.date | date: "%-d %B %Y" }}</p>
+					</div>
+					<div class="title">
+						<h1>{{ post.title }}</h1>
+						<hr>
+					</div>
+					<p>{{ post.excerpt }}</p>
+				</div>
+			</a>
+			{% endfor %}
+		{% include footer.html %}
+	</div>
+</body>
+
+</html>
