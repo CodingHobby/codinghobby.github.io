@@ -4,7 +4,7 @@
 	✔ Change angre to overwhelmed @done (11/03/2017, 12:52:23 pm)
 	✔ Combine hero section into just one include @done (11/03/2017, 12:58:31 pm)
 	☐ Clean up font-awesome mess
-	☐ Find less hacky solution for redirecting user to another page
+	✔ Find less hacky solution for redirecting user to another page @done (12/03/2017, 11:49:20 pm)
 
 ✔ Add SASS support @done (10/03/2017, 2:09:58 pm)
 	✔ Standard file structure @done (10/03/2017, 2:09:59 pm)
@@ -17,27 +17,25 @@
 	✔ Build top Navigation @done (10/03/2017, 11:03:42 pm)
 	✔ Add responsiveness using media queries @done (10/03/2017, 11:03:43 pm)
 
-☐ Home page
+✔ Home page @done (12/03/2017, 11:50:11 pm)
 	✔ Hero box at top @done (10/03/2017, 11:03:45 pm)
 	✔ Multiple boxes @done (10/03/2017, 11:04:08 pm)
 	✔ CTA @done (11/03/2017, 12:47:32 pm)
-	☐ Use page content container instead of position: absolute
+	✔ Use page content container instead of position: absolute @done (12/03/2017, 11:49:26 pm)
 
-☐ About page
-	☐ Thinks about something decent to say
-	☐ Possibly divide into columns w/ icons(?)
-	☐ Awesome neat grid (bitters template)
+✔ About page @done (12/03/2017, 11:49:38 pm)
+	✔ Thinks about something decent to say @done (12/03/2017, 11:49:29 pm)
+	✔ Possibly divide into columns w/ icons(?) @done (12/03/2017, 11:49:33 pm)
 
-☐ Articles Page
-	☐ List articles w/ link to single article
+✔ Articles Page @done (12/03/2017, 11:49:48 pm)
+	✔ List articles w/ link to single article @done (12/03/2017, 11:49:43 pm)
 	☐ Group by category
 	☐ Group by author
 
-☐ Singe article View
-	☐ Possibly using Bitters template
+✔ Singe article View @done (12/03/2017, 11:49:55 pm)
 
-☐ Deployment
-	☐ Add to Github Pages
+✔ Deployment @done (12/03/2017, 11:49:57 pm)
+	✔ Add to Github Pages @done (12/03/2017, 11:49:58 pm)
 	☐ Possibly buy dns domain
 
 ☐ Other stuff
