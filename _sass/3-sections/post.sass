@@ -12,22 +12,27 @@
 	p.title
 		text-align: center
 
+	a i.fa
+		transition: all linear 0.5s
+		text-align: left
+		font-size: 20px
+		color: transparentize($text-color, 0.3)
+		&:hover
+			color: transparentize($text-color, 0.1)
+
 	p.auth
-		margin-top: 50px
+		display: inline block
 		font-size: 13px
 		color: tint(black, 40%)
+		width: 100%
+		text-align: right
+
+	.post-foot
+		margin-top: 50px
+		display: flex
 
 	code
 		background-color: darken(#faf8f0, 2%)
 		padding: 2px
 		border: 1px solid darken(#faf8f0, 5%)
 
-	a i.fa
-		transition: all linear 0.5s
-		display: inline-block
-		width: 100%
-		text-align: right
-		font-size: 20px
-		color: transparentize($text-color, 0.3)
-		&:hover
-			color: transparentize($text-color, 0.1)
