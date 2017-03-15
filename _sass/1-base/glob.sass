@@ -1,17 +1,3 @@
-.page-content-wrapper
-	margin-top: 80px
-
-
-.title
-	text-align: center
-	h1
-		margin-bottom: 2px
-		text-transform: uppercase
-		font-size: 20px
-	hr
-		width: 150px
-		border: 1px solid black
-
 body, html
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 	width: 100%
@@ -20,36 +6,50 @@ body, html
 	padding: 0
 	margin: 0
 	overflow-x: hidden
-
-a
-	color: $highlight
-	text-decoration: none
-	&:hover
-		color: darken($highlight, 10%)
-
-#home
-	.home
-		border-bottom: 2px solid black
-#about
-	.about
-		border-bottom: 2px solid black
-#articles
-	.articles
-		border-bottom: 2px solid black
-#downloads
-	.downloads
-		border-bottom: 2px solid black
-
-.box
-	transition: all 0.7s linear
-	background-color: white
-	margin: 20px 50px
-	border: 1px solid darken($bg-color, 10%)
-	border-radius: 10px
-	text-align: center
-	padding: 20px
-	&:hover
-		background-color: darken(white, 5%)
 	
-	&.cta
-		font-size: 24px
+	.page-content-wrapper
+		margin-top: 80px
+
+
+	.title
+		text-align: center
+		h1
+			margin-bottom: 2px
+			text-transform: uppercase
+			font-size: 20px
+		hr
+			width: 150px
+			border: 1px solid black
+	
+	a
+		color: $highlight
+		text-decoration: none
+		&:hover
+			color: darken($highlight, 10%)
+
+	
+	#home
+		.home
+			border-bottom: 2px solid black
+	#about
+		.about
+			border-bottom: 2px solid black
+	#articles
+		.articles
+			border-bottom: 2px solid black
+	#downloads
+		.downloads
+			border-bottom: 2px solid black
+
+	.box
+		transition: all 0.7s linear
+		background-color: white
+		margin: 20px 50px
+		border: 1px solid darken($bg-color, 10%)
+		border-radius: 10px
+		text-align: center
+		padding: 20px
+		&:hover
+			background-color: darken(white, 5%)	
+		&.cta
+			font-size: 24px

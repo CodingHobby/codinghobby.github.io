@@ -3,7 +3,7 @@
 	☐ Change Bourbon to Jekyll Autoprefixer
 	✔ Change angre to overwhelmed @done (11/03/2017, 12:52:23 pm)
 	✔ Combine hero section into just one include @done (11/03/2017, 12:58:31 pm)
-	☐ Clean up font-awesome mess
+	✔ Clean up font-awesome mess @done (15/03/2017, 8:26:52 am)
 	✔ Find less hacky solution for redirecting user to another page @done (12/03/2017, 11:49:20 pm)
 
 ✔ Add SASS support @done (10/03/2017, 2:09:58 pm)
@@ -40,3 +40,4 @@
 
 ☐ Other stuff
 	☐ Add footer
+	☐ Articles for Dylan

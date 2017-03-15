@@ -1,17 +1,14 @@
 .text
 	text-align: center
 	
-.btn
+a.btn
 	transition: all 0.5s ease-in
 	background-color: $main-btn
+	color: tint(black, 30%)
 	padding: 10px 20px
 	border: 1px solid darken($main-btn, 5%)
 	margin-top: 10px
 	&:hover
 		background-color: darken($main-btn, 5%)
-		cursor: pointer
-
-a.btn
-	color: tint(black, 30%)
-	&:hover
 		color: tint(black, 20%)
+		cursor: pointer
