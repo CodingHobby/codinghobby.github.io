@@ -4,6 +4,7 @@ excerpt: Here comes the Jekyll!
 layout: post
 author: Corrado Canepari
 title: Jekyll Awesomeness
+categories: ruby
 ---
 
 Let's say you want to make a blog, or a forum, but don't want to go through the pain of setting up a backend API.

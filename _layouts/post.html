@@ -12,7 +12,16 @@
 			<h1>{{ page.title }}</h1>
 			<hr>
 		</div>
-		<!-- title -->
+		<div class="categories">
+			<span class="cat">Category:</span>
+			{% for category in page.categories %}
+			<a href="/articles#{{category}}">
+				<div class="box category">
+					{{category}}
+				</div>
+			</a>
+			{% endfor %}
+		</div>
 		<div class="box single-post">
 			{{ page.content }}
 			<div class="post-foot">
@@ -26,17 +35,20 @@
 				<h1>Other articles: </h1>
 				<hr>
 			</div>
-			{% for post in site.posts %} 
-			{% if post.title != page.title %}
-			<div class="box article">
-				<div class="title">
-					<h1>{{post.title}}</h1>
-					<hr>
+			{% for post in site.posts %} {% if post.title != page.title %}
+			<a href="{{post.url}}">
+				<div class="box article post-thumb">
+					<div class="title">
+						<h1>{{post.title}}</h1>
+						<hr>
+					</div>
+					<p>{{post.excerpt}}</p>
+					<div class="info">
+						<p>{{ post.author }} | {{ post.date | date: "%-d %B %Y" }}</p>
+					</div>
 				</div>
-				<p>{{post.excerpt}}</p>
-			</div>
-			{% endif %} 
-			{% endfor %}
+			</a>
+			{% endif %} {% endfor %}
 		</div>
 	</div>
 </body>

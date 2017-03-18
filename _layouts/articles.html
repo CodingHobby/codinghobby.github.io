@@ -5,23 +5,38 @@
 	{% include head.html %}
 </head>
 
-<body id="articles">
-		{% include nav.html %}
-		<div class="page-content-wrapper">
-			{% for post in site.posts %}
-			<a href="{{ post.url }}">
-				<div class="box post-thumb">
-					<div class="title">
-						<h1>{{ post.title }}</h1>
-						<hr>
-					</div>
-					<p>{{ post.excerpt }}</p>
-					<div class="info">
-						<p>{{ post.author }} | {{ post.date | date: "%-d %B %Y" }}</p>
-					</div>
+<body id="articles" class="posts">
+	{% include nav.html %}
+	<div class="page-content-wrapper">
+		<div class="categories">
+			<span class="cat">Category:</span>
+			{% for category_stuff in site.categories reversed %}
+			{% assign category = category_stuff | first %}
+			<a href="/articles#{{category}}">
+				<div class="box category">
+					{{category}}
 				</div>
 			</a>
-			{% endfor %}
+			{%endfor%}
+		</div>
+
+		{% assign posts = site.posts | group_by:"categories" %} {% for category_stuff in site.categories reversed %} {% assign category
+		= category_stuff | first %}
+		<div class="title">
+			<h1 name="{{category}}">{{category}}</h1>
+			<hr>
+		</div>
+		{% for stuff in posts %} {% for post in stuff.items %} {% if post.categories contains category %}
+		<a href="{{post.url}}">
+			<div class="box">
+				<h1> {{post.title}}</h1>
+				<p>{{post.excerpt}}</p>
+				<div class="info">
+					{{post.author}} | {{post.date | date_to_string}}
+				</div>
+			</div>
+		</a>
+		{% endif %} {% endfor %} {% endfor %} {% endfor %}
 	</div>
 </body>
 

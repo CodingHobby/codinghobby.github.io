@@ -27,12 +27,11 @@
 
 ✔ Articles Page @done (12/03/2017, 11:49:48 pm)
 	✔ List articles w/ link to single article @done (12/03/2017, 11:49:43 pm)
-	☐ Group by category
-	☐ Group by author
+	✔ Group by category @done (3/18/2017, 3:53:57 PM)
 
 ✔ Singe article View @done (12/03/2017, 11:49:55 pm)
 	✔ CTA to articles page @done (15/03/2017, 8:54:57 am)
-	☐ Category cards
+	✔ Category cards @done (3/18/2017, 3:54:07 PM)
 
 ✔ Deployment @done (12/03/2017, 11:49:57 pm)
 	✔ Add to Github Pages @done (12/03/2017, 11:49:58 pm)
@@ -41,4 +40,4 @@
 ☐ Other stuff
 	✔ Analytics @done (15/03/2017, 8:54:41 am)
 	☐ Add footer
-	☐ Articles for Dylan
+	✔ Articles for Dylan @done (3/18/2017, 3:54:14 PM)
