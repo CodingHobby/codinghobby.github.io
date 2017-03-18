@@ -11,14 +11,14 @@
 			{% for post in site.posts %}
 			<a href="{{ post.url }}">
 				<div class="box post-thumb">
-					<div class="date">
-						<p>{{ post.date | date: "%-d %B %Y" }}</p>
-					</div>
 					<div class="title">
 						<h1>{{ post.title }}</h1>
 						<hr>
 					</div>
 					<p>{{ post.excerpt }}</p>
+					<div class="info">
+						<p>{{ post.author }} | {{ post.date | date: "%-d %B %Y" }}</p>
+					</div>
 				</div>
 			</a>
 			{% endfor %}
