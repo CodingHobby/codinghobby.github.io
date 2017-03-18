@@ -20,6 +20,24 @@
 				<p class="auth">Written by: {{ page.author }}</p>
 			</div>
 		</div>
+
+		<div class="other-posts">
+			<div class="title">
+				<h1>Other articles: </h1>
+				<hr>
+			</div>
+			{% for post in site.posts %} 
+			{% if post.title != page.title %}
+			<div class="box article">
+				<div class="title">
+					<h1>{{post.title}}</h1>
+					<hr>
+				</div>
+				<p>{{post.excerpt}}</p>
+			</div>
+			{% endif %} 
+			{% endfor %}
+		</div>
 	</div>
 </body>
 
