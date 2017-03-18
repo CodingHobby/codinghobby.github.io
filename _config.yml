@@ -16,9 +16,7 @@
 title: CodingHobby
 email: caneparicorrdo@outlook.it
 description: > # this means to ignore newlines until "baseurl:"
-  This website is specifically made for programming enthusiast and
-  code lovers. It contains multiple articles on tech such as Node.js,
-  Python Libraries and much more!
+  This website is about code. All of it. It's good for beginners who want to learn for the first time, and it's good for more expert programmers who want to learn some trivia, or want to learn a new framework. I will talkabout JavaScript and Node.js, but also about programming as a whole, giving my opinions on certain programming languages and rambling about a certain framework.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  codinghobby
