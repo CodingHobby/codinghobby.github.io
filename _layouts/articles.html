@@ -6,21 +6,23 @@
 </head>
 
 <body id="articles" class="posts">
-	<div class="title">
-		<h1>Articles</h1>
-		<hr>
-	</div>
-	{%for post in site.posts%}
-	<a href="{{post.url}}">
-		<div class="box">
-			<h1> {{post.title}}</h1>
-			<p>{{post.excerpt}}</p>
-			<div class="info">
-				{{post.author}} | {{post.date | date_to_string}}
-			</div>
+	{%include nav.html%}
+	<div class="page-content-wrapper">
+		<div class="title">
+			<h1>Articles</h1>
+			<hr>
 		</div>
-	</a>
-	{% endfor %}
+		{%for post in site.posts%}
+		<a href="{{post.url}}">
+			<div class="box">
+				<h1> {{post.title}}</h1>
+				<p>{{post.excerpt}}</p>
+				<div class="info">
+					{{post.author}} | {{post.date | date_to_string}}
+				</div>
+			</div>
+		</a>
+		{% endfor %}
 	</div>
 </body>
 
