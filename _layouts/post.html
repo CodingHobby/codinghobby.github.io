@@ -8,13 +8,14 @@
 <body id="articles" class="post">
 	{% include nav.html %}
 	<div class="page-content-wrapper">
-		<div class="title">
-			<h1>{{ page.title }}</h1>
-			<hr>
+		<div id="heading">
+			<div class="title">
+				<h1>{{ page.title }}</h1>
+				<hr>
+			</div>
 		</div>
 		<div class="categories">
-			<span class="cat">Category:</span>
-			{% for category in page.categories %}
+			<span class="cat">Category:</span> {% for category in page.categories %}
 			<a href="/articles#{{category}}">
 				<div class="box category">
 					{{category}}
@@ -31,9 +32,11 @@
 		</div>
 
 		<div class="other-posts">
-			<div class="title">
-				<h1>Other articles: </h1>
-				<hr>
+			<div class="heading">
+				<div class="title">
+					<h1>Other articles: </h1>
+					<hr>
+				</div>
 			</div>
 			{% for post in site.posts %} {% if post.title != page.title %}
 			<a href="{{post.url}}">
