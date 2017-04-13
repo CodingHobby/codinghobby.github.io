@@ -14,7 +14,7 @@
 		</div>
 		{%for post in site.posts%}
 		<a href="{{post.url}}">
-			<div class="box">
+			<div class="box" name="{{post.category}}">
 				<h1> {{post.title}}</h1>
 				<p>{{post.excerpt}}</p>
 				<div class="info">

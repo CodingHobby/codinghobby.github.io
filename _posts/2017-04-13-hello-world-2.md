@@ -2,7 +2,7 @@
 date: 2017-4-13
 title: First Baby Steps
 excerpt: Welcome to JavaScript
-categories: JavaScript
+categories: HelloWorld
 author: Corrado Canepari
 layout: post
 ---
@@ -25,9 +25,9 @@ As most of you will already know, JavaScript is a programming language. But what
 
 Well, it's a **weakly typed, interpreted scripting language**.
 
-It was also originally made to be a **functional** programming language (to discover how JavaScript came to be check out [this article](https://codinghobby.github.io/history/2017/03/25/js-history.html))
+It was also originally made to be a **functional** programming language (to discover how JavaScript came to be, check out [this article](https://codinghobby.github.io/history/2017/03/25/js-history.html))
 
-Most parts of this phrase are well explained in [this article](https://codinghobby.github.io/helloworld/2017/03/23/hw-1.html) but, just as a refresher, that phrase means that JavaScript is a language in which data is ported 
+Most parts of this phrase are well explained in [this article](https://codinghobby.github.io/helloworld/2017/03/23/hw-1.html) but, just as a reminder, that phrase means that JavaScript is a language in which data is ported 
 from one type to another based on what you need to do. The scripts you create are not compiled into another lower level language, but they are directly intrepreted by either your Browser or Node, depending on which one you are using.
 
 And, finally, what is probably the hardest definition, functional. In [Wikipedia](https://en.wikipedia.org/wiki/Functional_programming)'s words:
@@ -48,7 +48,7 @@ Variables are one of the most important things in programming: they allow for yo
 
 You may not understand what I'm saying, so here's an example. Let's say we want our program to write "Hello World" to the screen. I'm going to use Pseudo-Code, which is often used to represent problems in a non-syntax specific way:
 
-<div class="multiline"
+<div class="multiline">
 <pre>say "Hello World"</pre>
 </div>
 
