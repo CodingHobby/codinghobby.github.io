@@ -95,10 +95,10 @@ Let's say you had a list of greetings, and you wanted to print wach one of them 
 
 <div class="multiline">
 <pre>
-	let greetings = ["Hi", "Hello"]
+let greetings = ["Hi", "Hello"]
 
-	say greetings[0]
-	say greetings[1]
+say greetings[0]
+say greetings[1]
 </pre>
 </div>
 
