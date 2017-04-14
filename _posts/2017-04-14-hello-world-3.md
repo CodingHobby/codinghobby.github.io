@@ -4,6 +4,7 @@ author: Corrado Canepari
 excerpt: JavaScript loops
 categories: HelloWorld
 layout: post
+date: 2017-04-14
 ---
 
 # JavaScript loops
